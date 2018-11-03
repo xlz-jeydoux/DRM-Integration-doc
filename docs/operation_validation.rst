@@ -66,12 +66,12 @@ Optional: floating validation
    
       * the 2 instances must work fine
    * Run 3 instances of the fpga design in parallel
-
    * only 2 instances must work
    
  
 Optional: node locked validation
 --------------------------------
+
 
 * Contact Accelize and request 1 node locked license
 * Start the FPGA design and use the node locked license
