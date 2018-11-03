@@ -73,6 +73,7 @@ Optional: floating validation
 Optional: node locked validation
 --------------------------------
 
+
 * Contact Accelize and request 1 node locked license
 * Start the FPGA design and use the node locked license
 * Kill the SDK
