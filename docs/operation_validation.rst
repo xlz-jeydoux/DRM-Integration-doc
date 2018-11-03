@@ -23,6 +23,7 @@ Activation validation
 ----------------------
 
    * Start a design in default (metered/floating) DRM mode with valid credentials in the cred.json file
+   
       * the design works fine and returns the following message
        
 .. code-block:: bash
@@ -33,6 +34,7 @@ Activation validation
    [INFO] Stopped metering session with sessionId A876FD1EDE47765B and uploaded last metering data
 
 |
+
    * Update the cred.json file with wrong credentials and restart the design in default DRM mode
       * the design must fail with the following error message:
 
