@@ -23,6 +23,7 @@ Activation validation
 ----------------------
 
    * Start a design in default (metered/floating) DRM mode with valid credentials in the cred.json file
+   
       * the design works fine and returns the following message
        
 .. code-block:: bash
@@ -33,7 +34,9 @@ Activation validation
    [INFO] Stopped metering session with sessionId A876FD1EDE47765B and uploaded last metering data
 
 |
+
    * Update the cred.json file with wrong credentials and restart the design in default DRM mode
+   
       * the design must fail with the following error message:
 
 
@@ -60,18 +63,18 @@ Optional: floating validation
 
    * Contact Accelize and request 2 floating licenses
    * Run 2 instances of the fpga design in parallel to use the 2 floating licenses
+   
       * the 2 instances must work fine
    * Run 3 instances of the fpga design in parallel
 
-  * only 2 instances must work
-
+   * only 2 instances must work
+   
  
 Optional: node locked validation
 --------------------------------
 
-
 * Contact Accelize and request 1 node locked license
-* Start the fpga design and use the node locked license
+* Start the FPGA design and use the node locked license
 * Kill the SDK
 
   * the design must still run
