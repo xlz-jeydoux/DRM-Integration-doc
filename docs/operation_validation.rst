@@ -2,11 +2,11 @@
 Operation validation
 ====================
 
-Create AccelStore account and access key
+Create Accelize Platform account and access key
 ----------------------------------------
 
-   *   Create a free account on AccelStore: https://accelstore.accelize.com/user/register
-   *   Create an access key from your AccelStore account: https://accelstore.accelize.com/user/applications
+   *   Create a free account on Accelize Platform: https://drmportal.accelize.com/user/register
+   *   Create an access key from your Accelize Platform account: https://drmportal.accelize.com/front/access_key
 
 
 Create cred.json
@@ -15,8 +15,8 @@ Create cred.json
 .. code-block:: json
 
    {
-      "client_id": "## your client id from Accelstore ##",
-      "client_secret": "## your client secret from Accelstore ##"
+      "client_id": "## your client id from Accelize Platform ##",
+      "client_secret": "## your client secret from Accelize Platform ##"
    }
 
 Activation validation
@@ -54,7 +54,7 @@ Metering validation
 For each protected IP, depending on the pricing defined for this IP (say, C coins per D MB processed - please refer to :ref:`Metering Control` chapter for more information):
 
    * Stimulate the design so as to process an amount of data corresponding to an expected amount of coins as defined by your business rule (say, 10xD MB corresponding to 10xC coins)
-   * Check the coins consumption on AccelStore: `https://accelstore.accelize.com/user/metering <https://accelstore.accelize.com/user/metering>`_
+   * Check the coins consumption on Accelize Platform: `https://drmportal.accelize.com/front/metering <https://drmportal.accelize.com/front/metering>`_
 
  
 
