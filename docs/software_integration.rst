@@ -178,7 +178,7 @@ Here is a function pointer example from a demonstration using the C API (without
 
 For the following function, 2 json files must be used:
 
-   * credentials (cred.json): please see the following chapters to create it: :ref:`Create AccelStore account and access key` and :ref:`Create cred.json`
+   * credentials (cred.json): please see the following chapters to create it: :ref:`Create Accelize Platform account and access key` and :ref:`Create cred.json`
    * configuration (conf.json): more information on chapter: :ref:`Edit your conf.json file`
 
 Those two functions are then used at MeteringSessionManager instantiation :
@@ -343,7 +343,7 @@ To use the C++ API:
 Edit your conf.json file
 ------------------------
 
-The MeteringSessionManager needs both a conf.json and cred.json files to operate. The cred.json is explained below, it is directly related to your AccelStore account. The conf.json is related to your design.
+The MeteringSessionManager needs both a conf.json and cred.json files to operate. The cred.json is explained below, it is directly related to your Accelize Platform account. The conf.json is related to your design.
 
 
    
